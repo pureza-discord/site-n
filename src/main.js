@@ -2,7 +2,6 @@ import "./style.css";
 
 const letterParagraphs = [
   "Nicole - A única e última garota que eu amei",
-  "Nicole - tudo que eu nunca soube fazer direito, exceto te amar",
   "Eu nunca fui um homem simples. Antes de você, eu era barulho, impulso, fuga. Pulava de pessoa em pessoa tentando preencher um silêncio que nunca acabava. Traí todas não por maldade planejada, mas por vazio. Nada ficava. Nada doía. Nada importava. No fim, era tudo vazio e monocromático como sempre.",
   "Até você.",
   "A verdade é estranha de dizer, mas precisa ser dita: eu só descobri o que era amor quando já estava despreparado demais pra cuidar dele.",
@@ -52,7 +51,6 @@ app.innerHTML = `
     <header class="hero">
       <div class="hero__content">
         <h1 class="hero__title">Nicole</h1>
-        <p class="hero__subtitle">tudo que eu nunca soube fazer direito, exceto te amar</p>
         <div class="hero__actions">
           <button class="ghost-button" type="button" data-scroll="letter">Ler o texto</button>
           <button class="ghost-button" type="button" data-scroll="music">Ouvir a música</button>
@@ -69,18 +67,7 @@ app.innerHTML = `
         <p class="section-subtitle">Um acorde que acompanha tudo.</p>
       </div>
       <div class="music__frame">
-        <iframe
-          data-testid="embed-iframe"
-          style="border-radius: 12px"
-          src="https://open.spotify.com/embed/track/0WKqlUwMcxvJj8HS5Kah7Q?utm_source=generator"
-          width="100%"
-          height="352"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-          title="Spotify player"
-        ></iframe>
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0WKqlUwMcxvJj8HS5Kah7Q?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
     </section>
 
